@@ -2,6 +2,10 @@
   "functions": {
     "api/*.php": {
       "runtime": "vercel-php@0.6.0"
-    }
+    },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/api/index.php" },
+    { "src": "/estilos/style.css", "dest": "/estilos/style.css" },
+    { "src": "/estilos/general.css", "dest": "/estilos/general.css" }]
   }
 }
