@@ -1,0 +1,107 @@
+.title-somos{
+    font-weight: bold;
+    color: #df9b25;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.title2-somos{
+    font-weight: bold;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.p-somos{
+    font-size: 2vh;
+    color: white;
+    margin-bottom: 4rem;
+}
+.h1-sub{
+    color: #70247f;
+    font-size: 3.5rem;
+}
+.h1-sub2{
+    font-size: 9.5rem;
+    font-weight: 700;
+    color: #80b72b;
+}
+.mini-title{
+    font-size: 115%;
+    color: gray;
+}
+.ontop{
+    z-index: 1;
+    position: absolute;
+    width: -webkit-fill-available;
+    text-align: -webkit-center;
+    top: 70%;
+}
+.f1-ontop{
+    text-align: -webkit-center;
+    color: white;
+    font-size: 2vw;
+    padding: 10px;
+    border-radius: 50px;
+    width: 50%;
+  }
+  .subtitle-somos{
+    font-size: 2vw;
+    font-weight: 700;
+  }
+  .box {
+    /* height: 30%; */
+    width: 100%;
+    background: #6e2b8c;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+  }
+  
+  .vertical .four {
+    --mask: radial-gradient(20px at bottom,#0000 97%,#000) 50% / 37.00px 100%;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
+  .girl-clientes{
+    width: 40%;
+    left: -20%;
+    height: 95%;
+    top: 5%;
+  }
+  .grid-container-marcas1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+    gap: 5%;
+  }
+  .grid-container-marcas2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 17%;
+    gap: 5%;
+    margin-top: 2rem;
+    margin-right: 17%;
+  }
+  .grid-container-marcas3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-item-marcas img {
+    width: 100%;
+    object-fit: cover; /* or "contain" */
+  }
+  .contacts-sub{
+    color: purple;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+  .contact-data p{
+    font-size: 3vh;
+  }
+  .vr{
+    display: inline-block;
+    align-self: stretch;
+    width: 1px;
+    min-height: 1em;
+    background-color: currentColor;
+    opacity: .25;
+  }
